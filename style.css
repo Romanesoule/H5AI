@@ -1,0 +1,146 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+}
+
+li, ul {
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+table {
+    border-spacing : 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+i {
+    padding-right: 20px;
+    font-size: 29px;
+    color: #8f8c8c;
+}
+
+th {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+td {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+tr:hover {
+    transition: all .1s ease-in;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transform: scale(1.02);
+    border-radius: 10px;
+}
+
+thead {
+    
+    border-radius: 10px;
+    opacity: 30%;
+    color: #696969;
+    text-align: left;
+}
+
+#nom {
+    width: 650px;
+}
+
+button {
+    width: 120px;
+    height: 50px;
+    margin: 20px
+}
+
+.retour {
+    width: 50px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+#recherche, select{
+    height: 50px;
+    margin: 20px;
+
+}
+
+ .ombre {
+    
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.4);
+    background-color: #fff;
+
+ }
+
+ .ombre:hover {
+    transition: all .1s ease-in;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.4);
+    background-color: #8f8c8c;
+    color: #fff;
+    transform: translateY(-5px);
+    transition: 0.45;
+ }
+
+
+.fa-chevron-right {
+    padding-left: 20px;
+}
+
+#page {
+    padding-left: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #777171;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+.modal {
+    background-color: #b1aeae;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2), 2px 2px 25px rgba(0,0,0,0.2),2px 2px 40px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    position: absolute;
+    padding: 2%;
+    top: 20%;
+    left: 20%;
+    width: auto;
+    height: auto;
+    
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  #modal-box {
+    position: absolute ;
+    padding: 50px;
+  }
+
+  .previsual {
+      width: 100px;
+      height: 100px;
+  }
+
+  strong {
+    color: #8f8c8c;
+}
+
